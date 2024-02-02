@@ -1,5 +1,5 @@
-import Footer from '@/components/footer/Footer';
 import Sidebar from '@/components/sidebar/Sidebar';
+import Signup from '@/components/sign-up/Signup';
 
 export default function Layout({
   children,
@@ -17,7 +17,7 @@ export default function Layout({
         </main>
       </Sidebar>
 
-      <Footer />
+      <Signup />
     </div>
   );
 }
