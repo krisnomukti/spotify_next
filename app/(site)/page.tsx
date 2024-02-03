@@ -20,7 +20,7 @@ export default function Home() {
         <button className='hover:underline'>Show all</button>
       </section>
 
-      <section className='grid grid-cols-6 mt-5 gap-3'>
+      <section className='grid grid-cols-4 mt-5 gap-3'>
         <ListSong />
         <ListSong />
         <ListSong />

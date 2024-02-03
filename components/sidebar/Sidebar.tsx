@@ -30,7 +30,7 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
 
   return (
     <aside className='fixed flex w-full h-[calc(100vh-4rem)]'>
-      <section className='flex flex-col justify-between w-[25rem] p-7'>
+      <section className='hidden sm:flex flex-col justify-between w-[25rem] p-7'>
         <section className='space-y-4'>
           <figure>
             <Image src='/spotify.png' alt='Spotify' width={80} height={80} />
