@@ -1,5 +1,5 @@
 import LoginPage from '@/components/form/login/LoginPage';
-import Image from 'next/image';
+
 import Link from 'next/link';
 
 import { DiApple } from 'react-icons/di';
@@ -7,16 +7,6 @@ import { DiApple } from 'react-icons/di';
 export default function Login() {
   return (
     <div className='w-full text-center'>
-      <header className='px-16 py-8'>
-        <Image
-          src='/spotify.png'
-          alt='Spotify'
-          width={500}
-          height={500}
-          className='w-32 h-auto'
-        />
-      </header>
-
       <section className='bg-gradient-to-b flex justify-center from-neutral-500/40 to-black'>
         <div className='flex flex-col justify-center w-4/5 mx-auto bg-black rounded-md mt-10'>
           <div className='mx-auto w-96 py-14 flex flex-col items-center'>

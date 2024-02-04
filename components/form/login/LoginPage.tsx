@@ -39,7 +39,10 @@ export default function LoginPage() {
 
         <p className='text-base mt-16'>
           Don't have an account?{' '}
-          <Link href='' className='underline text-white hover:text-green-500'>
+          <Link
+            href='/auth/register'
+            className='underline text-white hover:text-green-500'
+          >
             Sign up for Spotify
           </Link>
         </p>
