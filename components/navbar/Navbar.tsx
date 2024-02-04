@@ -76,11 +76,11 @@ export default function Navbar() {
 
           <ul className='flex items-center gap-x-5 ml-3'>
             <li className='hover:text-white hover:scale-105 transition'>
-              <Link href='/register'>Sign up</Link>
+              <Link href='/auth/register'>Sign up</Link>
             </li>
 
             <li className='px-7 py-3 bg-white rounded-full text-black transition hover:scale-105'>
-              <Link href='/login'>Log in</Link>
+              <Link href='/auth/login'>Log in</Link>
             </li>
           </ul>
         </section>
