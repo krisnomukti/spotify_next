@@ -66,7 +66,7 @@ export default function Sidebar({ children }: { children: React.ReactNode }) {
             </div>
           </div>
 
-          <div className='overflow-y-scroll space-y-5'>
+          <div className='overflow-y-scroll h-24 space-y-5'>
             <section className='bg-neutral-100/20 p-5 rounded-md max-w-sm'>
               <h4 className='text-base font-bold text-white'>
                 Create your first playlist

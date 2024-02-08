@@ -1,6 +1,12 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
+
 import Link from 'next/link';
 
 export default function FormRegister() {
+  const router = useRouter();
+
   return (
     <form className='flex flex-col gap-y-5 px-2 mt-16'>
       <div className='flex flex-col w-full space-y-2'>
@@ -19,7 +25,10 @@ export default function FormRegister() {
       </Link>
 
       <div className='w-full text-center'>
-        <button className='bg-green-500 mb-8 rounded-full hover:brightness-105 transition w-full py-3 text-base text-black font-bold text-center'>
+        <button
+          onClick={() => router.push('/auth/register/password')}
+          className='bg-green-500 mb-8 rounded-full hover:brightness-105 transition w-full py-3 text-base text-black font-bold text-center'
+        >
           Next
         </button>
       </div>
